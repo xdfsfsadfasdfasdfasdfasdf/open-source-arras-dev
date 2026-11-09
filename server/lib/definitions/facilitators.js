@@ -2039,6 +2039,7 @@ class LayeredBoss {
             }
         }
 
+		
         Class[this.identifier + "Layer" + this.layerID] = layer;
         Class[this.identifier].TURRETS.push({
             TYPE: this.identifier + "Layer" + this.layerID,
